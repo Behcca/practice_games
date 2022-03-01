@@ -1,0 +1,19 @@
+{
+  "name": "practice_games",
+  "version": "1.0.0",
+  "description": "Practicing coding games in different languages",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Behcca/practice_games.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Behcca/practice_games/issues"
+  },
+  "homepage": "https://github.com/Behcca/practice_games#readme"
+}
