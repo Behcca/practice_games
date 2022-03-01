@@ -3,22 +3,25 @@
 }
 
 body {
+    alignment: center;
     background-color: dimgrey;
     color: #333;
     font: 10em Helvetica;
-    alignment: center;
 }
 
+/*Div Grid CSS*/
+
 h1 {
-   text-align: center;
-    font-size: 5rem;
     color: yellow;
+    font-weight: 300;
+    font-size: 10rem;
+    text-align: center;
 }
 
 .grid > * {
     background-color: #000000;
     color: #ffff00;
-    padding: 10px;
+    padding: 25px;
 }
 
 .grid {
@@ -29,10 +32,10 @@ h1 {
 }
 
 .board {
+    background-color: #000000;
     justify-content: center;
     margin: 2rem;
     padding: 2rem;
-    background-color: #000000;
 }
 
 .col-a {
@@ -55,4 +58,20 @@ h1 {
 }
 .row-3 {
     border-top: 10px solid yellow;
+}
+
+/*Table CSS*/
+
+table {
+    border-color: yellow;
+    border-spacing: 0;
+    margin: auto;
+    padding: 25px;
+    width: auto;
+}
+
+tr td {
+    color: yellow;
+    padding: 50px;
+    width: auto;
 }
