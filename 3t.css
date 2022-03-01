@@ -1,40 +1,12 @@
 @font-face {
-    font-family: 'opendyslexic';
-    src: url('https://dyslexicfonts.com/fonts/OpenDyslexic-Regular.otf');
-    font-style: normal;
-    font-weight: normal;
-}
-
-@font-face {
-    font-family: 'opendyslexic';
-    src: url('https://dyslexicfonts.com/fonts/OpenDyslexic-Italic.ttf');
-    font-style: italic;
-    font-weight: normal;
-}
-
-@font-face {
-    font-family: 'opendyslexic';
-    src: url('https://dyslexicfonts.com/fonts/OpenDyslexic-Bold.ttf');
-    font-weight: bold;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'opendyslexic';
-    src: url('https://dyslexicfonts.com/fonts/OpenDyslexic-BoldItalic.ttf');
-    font-weight: bold;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: eulexia;
-    src: url('https://dyslexicfonts.com/fonts/eulexia.ttf');
+    font-family: "Helvetica Neue", "Helvetica", sans-serif;
 }
 
 body {
     background-color: dimgrey;
     color: #333;
-    font: 2em opendyslexic;
+    font: 10em Helvetica;
+    alignment: center;
 }
 
 h1 {
@@ -46,14 +18,14 @@ h1 {
 .grid > * {
     background-color: #000000;
     color: #ffff00;
-    padding: 1em;
-    justify-content: center;
+    padding: 10px;
 }
 
 .grid {
     display: grid;
     grid-template-columns: 15rem 15rem 15rem;
     grid-template-rows: 15rem 15rem 15rem;
+    justify-content: center;
 }
 
 .board {
