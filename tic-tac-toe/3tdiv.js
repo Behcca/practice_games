@@ -1,10 +1,14 @@
 function initializeTile() {
-    document.getElementById('1a').innerHTML = '_'
+    const tile = document.getElementById('1a');
+    const originalInnerHTML = tile.innerHTML;
+    tile.innerHTML = '_';
+    console.log(tile.innerHTML);
+    console.log(originalInnerHTML);
 }
 
 document.addEventListener(
     "DOMContentLoaded",
-    function(event) {
+    function() {
         initializeTile();
     }
 );
