@@ -1,4 +1,10 @@
-document.addEventListener("DOMContentLoaded", function(event) {
-    console.log('Tripe-T Divs')
-    //Here we go!
-});
+function initializeTile() {
+    document.getElementById('1a').innerHTML = '_'
+}
+
+document.addEventListener(
+    "DOMContentLoaded",
+    function(event) {
+        initializeTile();
+    }
+);
